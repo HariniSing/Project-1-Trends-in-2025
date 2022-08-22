@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 10rem;
+    font-family: 'Orbitron', sans-serif;
+}
+ /* Navbar Section  */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 8px;
+    height: 50px;
+}
+.navbar-container div img{
+    width: 95px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.3rem;
+    list-style-type: none;
+    width: 40vw;
+}
+li:first-child{
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.list-item {
+    margin: 20px;
+    cursor: pointer;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+.search-icon{
+    margin-right: -5px;
+}
+.search-icon svg{
+    width: 16px;
+}
+.nav-button {
+    padding: 0px 40px;
+    border-radius: 7px;
+    margin: 21px;
+    height: 25px;
+    background: transparent; 
+}
+
+/* Hero Banner Section */
+.hero-container {
+    position: relative;
+    z-index: 9;
+}
+[alt="person-hero-iamge"]{
+    width: 400px;
+    height: auto;
+    position: relative;
+    bottom: 11px;
+}
+
+/* Patterns */
+.square img{
+    position: absolute;
+    top: 288px;
+    left: 164px;
+    height: 300px;
+}
+.star img{
+    position: absolute;
+    top: 54px;
+    right: 53px;
+    height: 44px;
+}
+.globe img {
+    position: relative;
+    height: 44px;
+    left: 714px;
+}
+
+/* Below code is not the right way i feel, need to check */
+.hero-container-right{
+    margin-left: 463px;
+    margin-top: -443px;
+    text-align: center;
+}
+.hero-container-right h1{
+    font-size: 63px;
+}
+.hero-description {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.button-email{
+    font-family: 'Orbitron', sans-seri;
+    background: transparent;
+    border-radius: 7px;
+    width: 150px;
+    height: 25px;
+}
+.button-join{
+    font-family: 'Orbitron', sans-seri;
+    background: #000;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+    height: 25px;
+}
+.contact-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-top: 160px;
+}
+.icons span img{
+    height: 23px;
+    margin: 10px;
+}
